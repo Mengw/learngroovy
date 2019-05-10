@@ -1,3 +1,5 @@
+package file
+
 filePath = "db\\1.txt"
 filePath1 = "db/1.txt"
 

@@ -2,3 +2,7 @@
 .gitignore
 .idea/
 db/
+lib/*
+*.iml
+out/
+build/
