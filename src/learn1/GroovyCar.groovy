@@ -3,10 +3,15 @@ package learn1
 class Car{
     def mile = 0
     final int year
+    private mile1 = 1
 
 //    Car(year) {
 //        this.year = year
 //    }
+
+    def getA(){
+        "aaa"
+    }
 
 }
 
@@ -14,7 +19,12 @@ class Car{
 
 Car car1 = new Car()
 print (car1.year)
+//car1.year = 1000
 
+print(car1.mile)
+car1.mile = 2222
+print(car1.a)
+//car1.a=3333
 
 //println "year $car.year"
 //println "mile $car.mile"
