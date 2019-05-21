@@ -93,9 +93,9 @@ def fluentCreate(){
 
 @Singleton(lazy = true)
 class TheUnique{
-    private TheUnique(){
-        println("the unique")
-    }
+//    private TheUnique(){
+//        println("the unique")
+//    }
 
     def hello(){
         println('hello')
