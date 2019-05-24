@@ -1,0 +1,12 @@
+<languages>
+    <language name='java'>
+        <author>JAVA</author>
+    </language>
+    <language name='c'>
+        <author>C</author>
+        <author>CC</author>
+    </language>
+    <language name='lisp'>
+        <author>LISP</author>
+    </language>
+</languages>
