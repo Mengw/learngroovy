@@ -1,4 +1,4 @@
-package learn1
+package learn1.InjectionAndSynthesisWithMOP
 
 import groovy.transform.Immutable
 

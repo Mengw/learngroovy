@@ -1,4 +1,4 @@
-package learn1
+package learn1.InjectionAndSynthesisWithMOP
 
 daysFromNow = {
     Calendar today = Calendar.instance
@@ -21,10 +21,7 @@ Number.metaClass.someMethod = {
     println("someMethod")
 }
 
-
-
 2.someMethod()
-
 
 Integer.metaClass.'static'.isEven = {
     val -> val % 2 == 0
@@ -43,5 +40,11 @@ println(new Integer(Calendar.instance))
 
 Integer.metaClass.constructor = {
     int val ->
-        println('Inte')
+        println('Intercepting constructor')
+        constructor = Integer.class.getConstructor(Integer.TYPE)
+        constructor.newInstance(val)
 }
+
+println(new Integer(4))
+println(new Integer(8))
+

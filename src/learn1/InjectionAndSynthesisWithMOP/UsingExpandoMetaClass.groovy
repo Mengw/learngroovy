@@ -1,4 +1,4 @@
-package learn1
+package learn1.InjectionAndSynthesisWithMOP
 
 Integer.metaClass.daysFromNow={
     Calendar today = Calendar.instance

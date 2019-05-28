@@ -1,4 +1,4 @@
-package learn1
+package learn1.GroovyForJavaEyes
 
 class Car{
     def mile = 0
