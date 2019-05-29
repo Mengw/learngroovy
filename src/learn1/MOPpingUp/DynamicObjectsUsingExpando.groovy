@@ -1,12 +1,20 @@
 package learn1.MOPpingUp
 
-data = new File('cat.dat').readLines()
+
+data = new File('car.dat').readLines()
 
 props = data[0].split(",")
 data -= data[0]
 
 def averageMilesDrivenPerYear = {
-    miles.toLong() / (2019 - year.toLong())
+    miles.toLong() / (2008 - year.toLong())
+}
+
+cars = data.collect {
+    car = new Expando()
+    it.split(", ").eachWithIndex { value, index ->
+        miles.toLong() / (2019 - year.toLong())
+    }
 }
 
 
@@ -40,8 +48,3 @@ cars.each {
 
 car = cars[0]
 println("$car.miles $car.year $car.make ${car.ampy()}")
-
-
-
-
-

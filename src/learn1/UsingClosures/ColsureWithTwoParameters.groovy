@@ -5,5 +5,10 @@ def tellFortune(closure){
 }
 
 tellFortune(){
-    date, fortune -> println('fortune ${date} is ${fortune}')
+    date, fortune -> println("fortune ${date} is ${fortune}")
+}
+
+tellFortune(){
+    Date date, String fortune ->
+        println("fortune ${date} is ${fortune}")
 }
